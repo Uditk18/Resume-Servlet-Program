@@ -1,0 +1,84 @@
+<!-- Front page visible to the user -->
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+
+<h1 align="center">Resume</h1>
+
+
+
+<form action="ms1" method="get" id="form1">
+<table border="1" align="center">
+
+<tr><td>Photo: <input type="file" name="pic" accept="image/*"><input type="submit" value="Upload"><td>
+</tr>
+
+<tr>
+<td>
+Full Name: <input type="text" name="fName" placeholder="First Name"/>
+&nbsp;Last Name: <input type="text" name="lName" placeholder="Last Name" /></td>
+</tr>
+<tr>
+<td>Gender: <input type="radio" name="gender" value="Male" />Male&nbsp;&nbsp;
+		<input type="radio" name="gender" value="Female" />Female</td>
+</tr>
+<tr>
+<td>Highest Qualification: <select  name="highest">
+<option value="Btech">Btech</option>
+<option value="Mtech">Mtech</option>
+<option value="MBA">MBA</option>
+<option value="Phd">Phd</option></td>
+</select>
+</tr>
+<tr>
+<td>
+Date of Birth: <input type="date" name="bday">
+</td>
+</tr>
+<tr>
+<td>Hobbies: <select multiple name="hobbies">
+<option value="tv">Watching TV</option>
+<option value="books">Reading books</option>
+<option value="travel">Traveling</option>
+<option value="foot">Watching Football</option>
+<option value="cricket">Playing Cricket</option></td>
+</select>
+</tr>
+<tr>
+
+<td>Address: <textarea rows="2" cols="50" name="add" form="form1" placeholder="Enter Address"></textarea></td>
+</tr>
+<tr>
+<td>
+Skills: <input type="checkbox" name="skills" value="C++">C++
+<input type="checkbox" name="java" value="java">Java
+<input type="checkbox" name="js" value="js">JavaScript
+<input type="checkbox" name="Python" value="Python">Python
+<input type="checkbox" name="r" value="r">R programming</td>
+</tr>
+<tr>
+<td>Email: <input type="email" name="emailadd" placeholder="Email" ></td>
+</tr>
+<tr>
+
+<td>Phone Number: <input type="text" name="phone" placeholder="Phone Number"/></td>
+</tr>
+<tr>
+
+<td>Description: <textarea rows="2" cols="50" name="descrip" form="form1" placeholder="Write about yourself" ></textarea></td>
+</tr>
+</table>
+
+<div align="center">
+<button type="reset" value="reset" >Clear&nbsp;</button>
+<button type="Submit" value="submit" >Submit</button>
+</div>
+</form>
+
+</body>
+</html>
